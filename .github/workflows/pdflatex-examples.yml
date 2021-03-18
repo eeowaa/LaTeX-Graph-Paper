@@ -3,6 +3,7 @@ on:
   push:
     branches-ignore:
       - 'gh-action-result/examples'
+  workflow_dispatch:
 jobs:
   build_latex:
     runs-on: ubuntu-latest
